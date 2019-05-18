@@ -35,7 +35,7 @@ header {
    
    width: 100%;
    /* background: #161415 url(../images/header.jpg) no-repeat top center; */
-   background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/header.jpg) no-repeat top center;
+   background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/header.jpg) no-repeat top center !important;
 
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -227,6 +227,8 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+   background: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/about.jpg);
+   background-size: cover;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -234,12 +236,12 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #16dbe4;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ebeeee;
 }
 #about .profile-pic {
    position: relative;

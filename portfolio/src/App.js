@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import Testimonials from './components/Testimonials';
 import Portfolio from './components/Portfolio';
 
 class App extends Component {
@@ -22,6 +21,7 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
 
   }
+  
   getResumeData(){
     $.ajax({
       url:'/resumeData.json',
@@ -38,7 +38,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.getResumeData();
+    this.getResumeData();    
   }
 
   render() {
@@ -46,9 +46,8 @@ class App extends Component {
       <div className="App">
       <Header data={this.state.resumeData.main}/>
       <About  data={this.state.resumeData.main}/>
-      <Resume />
-      <Portfolio />
-      <Testimonials />
+      <Resume data={this.state.resumeData.resume}/>
+      <Portfolio />      
       <Contact />
       <Footer />
     </div>
