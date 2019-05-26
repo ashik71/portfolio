@@ -2,9 +2,9 @@
   "main": {
     "name":"Ashik Ashrafe",
     "occupation":"web developer",
-    "description":"proactive self-starter who can easily adapt into new environment.earn a job which provides me job Satisfaction and self-development and helps me to achieve personal as well as organization goals.",
+    "description":"",
     "image":"profile.jpg",
-    "bio":"I'm currently working as a software engineer in a software firm named ' Al-Hiyal Software Company '.",
+    "bio":"Web developer with industry experience building websites and web applications. I specialize in ASP.NET and have professional experience working with ASP.NET and C# Desktop applications. I also have experience working with NodeJs and ReactJs.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "a.ashrafe71@gmail.com",
     "phone": "",
@@ -14,12 +14,12 @@
       "state":"Jatrabari",
       "zip": "Dhaka"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "#",
+    "resumedownload":"#",
     "social":[
       {
         "name":"facebook",
-        "url":"https://www.facebook.com/muhammad.ashik.ashrafe",
+        "url":"https://www.facebook.com",
         "className":"fa fa-facebook"
       },
       {
@@ -51,13 +51,13 @@
         "school":"American Inernational University-Bangladesh(AIUB)",
         "degree":"B.sc in Computer Science & Engineering",
         "graduated":"December 2017",
-        "description":"description"
+        "description":""
       },
       {
         "school":"Kabi Nazrul Government College",
         "degree":"HSC",
         "graduated":"2013",
-        "description":"description"
+        "description":""
       }
     ],
     "work":[
@@ -65,7 +65,7 @@
         "company":"Al-Hiyal Software Company",
         "title":"Jr.Software Engineer",
         "years":"March 2018 - Present",
-        "description":"description"
+        "description":""
       }
     ],
     "skills":[
@@ -98,34 +98,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Phone Store",
+        "category":"A phone store with ReactJs",
+        "image":"phone-store.jpg",
+        "url":"https://github.com/ashik71/phone-store-with-react-and-nodejs"
       },
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
         "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"https://github.com/ashik71/portfolio"
       }
     ]
   },
