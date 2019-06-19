@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import  'jquery.ripples';
 
 class Header extends Component {
   render() {
