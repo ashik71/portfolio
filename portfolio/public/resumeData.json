@@ -106,6 +106,12 @@
         "category": "A phone store with ReactJs",
         "image": "phone-store.jpg",
         "url": "https://github.com/ashik71/phone-store-with-react-and-nodejs"
+      },           
+      {
+        "title": "Waves",
+        "category": "A React based E-commerce Site with nodeJs ",
+        "image": "waves.png",
+        "url": "https://morning-meadow-33453.herokuapp.com/"
       },
       {
         "title": "Resume Website",
